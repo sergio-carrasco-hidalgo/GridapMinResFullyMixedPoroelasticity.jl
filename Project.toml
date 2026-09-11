@@ -1,0 +1,16 @@
+name = "GridapMinResFullyMixedPoroelasticity"
+uuid = "77baa4e6-8af7-4197-9471-13c8e4269c9d"
+authors = ["Sergio Carrasco Hidalgo <sergio.carrascohidalgo@monash.edu>"]
+version = "0.1.0-DEV"
+
+[deps]
+Gridap = "56d4f2e9-7ea1-5844-9cf6-b9c51ca7ce8e"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
