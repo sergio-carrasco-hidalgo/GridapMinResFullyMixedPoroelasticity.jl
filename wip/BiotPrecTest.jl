@@ -180,13 +180,6 @@ op = AffineFEOperator(lhs, rhs, Xh, Yh)
 Σ_test  = MultiFieldFESpace([Σ1_, Σ2_])
 Σ_trial = MultiFieldFESpace([Σ1,  Σ2 ])
 
-# Aσ_  = assemble_matrix(rσ,   Σ_trial, Σ_test)
-# Apa_ = assemble_matrix(rp_a, P,  P_)
-# Apb_ = assemble_matrix(rp_b, P,  P_)
-# Au_  = assemble_matrix(ru,   U,  U_)
-# Ag_  = assemble_matrix(rγ,   G,  G_)
-# Az_  = assemble_matrix(rz,   Z,  Z_)
-
 # DOF ranges of ALL BLOCKS within the global system, used to place
 # the preconditioner's block inverses into the dense Pinv matrix below.
 
