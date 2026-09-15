@@ -284,15 +284,16 @@ end
         κ::Float64  = 1.0e-5
     end
 
-    table = DataFrame(nk=Int[], λ=Float64[], κ=Float64[], s0=Float64[], niter=Int[], solved=Bool[], cond=Float64[])
+    table = DataFrame(nk=Int[], λ=Float64[], κ=Float64[], s0=Float64[], α=Float64[],
+                     niter=Int[], solved=Bool[], cond=Float64[])
 
     for nk in (2, 3, 4)
         model = generate_model2d(nk)
         setup_model_labels_unit_square!(model)
 
-        for λ in (1.0, 1e4, 1e8), κ in (1e-5, 1e-3), s0 in (1e-9, 1e-3)
-            params = BiotParams(λ=λ, κ=κ, s0=s0)
-            println("\n--- nk=$nk λ=$λ κ=$κ s0=$s0 ---")
+        for λ in (1.0, 1e4, 1e8), κ in (1e-5, 1e-3), s0 in (1e-9, 1e-3), α in (1e-4, 1e-2, 1.0)
+            params = BiotParams(λ=λ, κ=κ, s0=s0, α=α)
+            println("\n--- nk=$nk λ=$λ κ=$κ s0=$s0 α=$α---")
 
             op, riesz, evals = assemble_biot_precond(model, p_ex, u_ex, params; nk=nk)
 
@@ -301,7 +302,7 @@ end
             cnd = maximum(abs, evals) / minimum(abs, evals)
             @printf("iters=%d  solved=%s  cond=%1.3e\n", hist.niter, hist.solved, cnd)
 
-            push!(table, (nk, λ, κ, s0, hist.niter, hist.solved, cnd))
+            push!(table, (nk, λ, κ, s0, α, hist.niter, hist.solved, cnd))
         end # sweep params
     end #for nk
 
