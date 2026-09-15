@@ -1,0 +1,976 @@
+--- nk=2 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=1.146e+01
+
+--- nk=2 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=71  solved=true  cond=1.105e+01
+
+--- nk=2 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=68  solved=true  cond=1.073e+01
+
+--- nk=2 λ=1.0 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=52  solved=true  cond=8.196e+00
+
+--- nk=2 λ=1.0 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=58  solved=true  cond=8.098e+00
+
+--- nk=2 λ=1.0 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=68  solved=true  cond=1.068e+01
+
+--- nk=2 λ=1.0 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=58  solved=true  cond=9.981e+00
+
+--- nk=2 λ=1.0 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=60  solved=true  cond=9.944e+00
+
+--- nk=2 λ=1.0 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=65  solved=true  cond=8.136e+00
+
+--- nk=2 λ=1.0 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=58  solved=true  cond=9.630e+00
+
+--- nk=2 λ=1.0 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=60  solved=true  cond=9.621e+00
+
+--- nk=2 λ=1.0 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=65  solved=true  cond=8.135e+00
+
+--- nk=2 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=9.396e+00
+
+--- nk=2 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=9.396e+00
+
+--- nk=2 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=60  solved=true  cond=8.896e+00
+
+--- nk=2 λ=10000.0 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=50  solved=true  cond=6.719e+00
+
+--- nk=2 λ=10000.0 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=50  solved=true  cond=6.719e+00
+
+--- nk=2 λ=10000.0 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=50  solved=true  cond=6.584e+00
+
+--- nk=2 λ=10000.0 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=8.183e+00
+
+--- nk=2 λ=10000.0 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=8.183e+00
+
+--- nk=2 λ=10000.0 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=8.125e+00
+
+--- nk=2 λ=10000.0 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=7.895e+00
+
+--- nk=2 λ=10000.0 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=7.895e+00
+
+--- nk=2 λ=10000.0 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=7.880e+00
+
+--- nk=2 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=9.396e+00
+
+--- nk=2 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=9.396e+00
+
+--- nk=2 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=56  solved=true  cond=9.396e+00
+
+--- nk=2 λ=1.0e8 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=50  solved=true  cond=6.719e+00
+
+--- nk=2 λ=1.0e8 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=50  solved=true  cond=6.719e+00
+
+--- nk=2 λ=1.0e8 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=50  solved=true  cond=6.719e+00
+
+--- nk=2 λ=1.0e8 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=8.183e+00
+
+--- nk=2 λ=1.0e8 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=8.183e+00
+
+--- nk=2 λ=1.0e8 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=8.183e+00
+
+--- nk=2 λ=1.0e8 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=7.895e+00
+
+--- nk=2 λ=1.0e8 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=55  solved=true  cond=7.895e+00
+
+--- nk=2 λ=1.0e8 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=54  solved=true  cond=7.895e+00
+
+--- nk=3 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=72  solved=true  cond=1.229e+01
+
+--- nk=3 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=82  solved=true  cond=1.208e+01
+
+--- nk=3 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=77  solved=true  cond=1.129e+01
+
+--- nk=3 λ=1.0 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=64  solved=true  cond=1.080e+01
+
+--- nk=3 λ=1.0 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=1.072e+01
+
+--- nk=3 λ=1.0 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=77  solved=true  cond=1.124e+01
+
+--- nk=3 λ=1.0 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=65  solved=true  cond=9.662e+00
+
+--- nk=3 λ=1.0 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=67  solved=true  cond=9.599e+00
+
+--- nk=3 λ=1.0 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=69  solved=true  cond=8.581e+00
+
+--- nk=3 λ=1.0 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=9.221e+00
+
+--- nk=3 λ=1.0 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=67  solved=true  cond=9.209e+00
+
+--- nk=3 λ=1.0 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=69  solved=true  cond=8.581e+00
+
+--- nk=3 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=9.935e+00
+
+--- nk=3 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=9.935e+00
+
+--- nk=3 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=68  solved=true  cond=9.750e+00
+
+--- nk=3 λ=10000.0 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=8.729e+00
+
+--- nk=3 λ=10000.0 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=8.729e+00
+
+--- nk=3 λ=10000.0 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=8.643e+00
+
+--- nk=3 λ=10000.0 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=7.809e+00
+
+--- nk=3 λ=10000.0 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=7.809e+00
+
+--- nk=3 λ=10000.0 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=7.718e+00
+
+--- nk=3 λ=10000.0 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=7.452e+00
+
+--- nk=3 λ=10000.0 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=7.452e+00
+
+--- nk=3 λ=10000.0 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=7.434e+00
+
+--- nk=3 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=9.934e+00
+
+--- nk=3 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=9.934e+00
+
+--- nk=3 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=9.934e+00
+
+--- nk=3 λ=1.0e8 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=8.729e+00
+
+--- nk=3 λ=1.0e8 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=8.729e+00
+
+--- nk=3 λ=1.0e8 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=8.729e+00
+
+--- nk=3 λ=1.0e8 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=7.809e+00
+
+--- nk=3 λ=1.0e8 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=7.809e+00
+
+--- nk=3 λ=1.0e8 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=63  solved=true  cond=7.809e+00
+
+--- nk=3 λ=1.0e8 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=7.452e+00
+
+--- nk=3 λ=1.0e8 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=7.452e+00
+
+--- nk=3 λ=1.0e8 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=61  solved=true  cond=7.452e+00
+
+--- nk=4 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=78  solved=true  cond=1.267e+01
+
+--- nk=4 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=87  solved=true  cond=1.255e+01
+
+--- nk=4 λ=1.0 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=83  solved=true  cond=1.112e+01
+
+--- nk=4 λ=1.0 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=74  solved=true  cond=1.206e+01
+
+--- nk=4 λ=1.0 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=78  solved=true  cond=1.200e+01
+
+--- nk=4 λ=1.0 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=83  solved=true  cond=1.107e+01
+
+--- nk=4 λ=1.0 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.862e+00
+
+--- nk=4 λ=1.0 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=71  solved=true  cond=9.778e+00
+
+--- nk=4 λ=1.0 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=8.890e+00
+
+--- nk=4 λ=1.0 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.360e+00
+
+--- nk=4 λ=1.0 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.347e+00
+
+--- nk=4 λ=1.0 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=8.890e+00
+
+--- nk=4 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=72  solved=true  cond=1.014e+01
+
+--- nk=4 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=72  solved=true  cond=1.014e+01
+
+--- nk=4 λ=10000.0 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=74  solved=true  cond=1.009e+01
+
+--- nk=4 λ=10000.0 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.657e+00
+
+--- nk=4 λ=10000.0 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.657e+00
+
+--- nk=4 λ=10000.0 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.613e+00
+
+--- nk=4 λ=10000.0 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.897e+00
+
+--- nk=4 λ=10000.0 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.897e+00
+
+--- nk=4 λ=10000.0 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.770e+00
+
+--- nk=4 λ=10000.0 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.495e+00
+
+--- nk=4 λ=10000.0 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.495e+00
+
+--- nk=4 λ=10000.0 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.474e+00
+
+--- nk=4 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=72  solved=true  cond=1.014e+01
+
+--- nk=4 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=72  solved=true  cond=1.014e+01
+
+--- nk=4 λ=1.0e8 κ=1.0e-5 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=72  solved=true  cond=1.014e+01
+
+--- nk=4 λ=1.0e8 κ=1.0e-5 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.656e+00
+
+--- nk=4 λ=1.0e8 κ=1.0e-5 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.656e+00
+
+--- nk=4 λ=1.0e8 κ=1.0e-5 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=70  solved=true  cond=9.656e+00
+
+--- nk=4 λ=1.0e8 κ=0.001 s0=1.0e-9 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=68  solved=true  cond=7.896e+00
+
+--- nk=4 λ=1.0e8 κ=0.001 s0=1.0e-9 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.896e+00
+
+--- nk=4 λ=1.0e8 κ=0.001 s0=1.0e-9 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.896e+00
+
+--- nk=4 λ=1.0e8 κ=0.001 s0=0.001 α=0.0001---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.494e+00
+
+--- nk=4 λ=1.0e8 κ=0.001 s0=0.001 α=0.01---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.494e+00
+
+--- nk=4 λ=1.0e8 κ=0.001 s0=0.001 α=1.0---
+[ Info: affine operator assembled
+[ Info: dense A computed
+[ Info: Assembly done
+[ Info: Block operators assembled
+[ Info: Riesz operator assembled
+iters=66  solved=true  cond=7.494e+00
+table = 108×8 DataFrame
+ Row │ nk     λ          κ        s0       α        niter  solved  cond
+     │ Int64  Float64    Float64  Float64  Float64  Int64  Bool    Float64
+─────┼──────────────────────────────────────────────────────────────────────
+   1 │     2      1.0     1.0e-5   1.0e-9   0.0001     61    true  11.4611
+   2 │     2      1.0     1.0e-5   1.0e-9   0.01       71    true  11.0547
+   3 │     2      1.0     1.0e-5   1.0e-9   1.0        68    true  10.7308
+   4 │     2      1.0     1.0e-5   0.001    0.0001     52    true   8.19583
+   5 │     2      1.0     1.0e-5   0.001    0.01       58    true   8.09798
+   6 │     2      1.0     1.0e-5   0.001    1.0        68    true  10.6803
+   7 │     2      1.0     0.001    1.0e-9   0.0001     58    true   9.98132
+   8 │     2      1.0     0.001    1.0e-9   0.01       60    true   9.94351
+   9 │     2      1.0     0.001    1.0e-9   1.0        65    true   8.13551
+  10 │     2      1.0     0.001    0.001    0.0001     58    true   9.63017
+  11 │     2      1.0     0.001    0.001    0.01       60    true   9.62059
+  12 │     2      1.0     0.001    0.001    1.0        65    true   8.13464
+  13 │     2  10000.0     1.0e-5   1.0e-9   0.0001     56    true   9.39649
+  14 │     2  10000.0     1.0e-5   1.0e-9   0.01       56    true   9.39641
+  15 │     2  10000.0     1.0e-5   1.0e-9   1.0        60    true   8.89577
+  16 │     2  10000.0     1.0e-5   0.001    0.0001     50    true   6.71939
+  17 │     2  10000.0     1.0e-5   0.001    0.01       50    true   6.71937
+  18 │     2  10000.0     1.0e-5   0.001    1.0        50    true   6.58382
+  19 │     2  10000.0     0.001    1.0e-9   0.0001     55    true   8.18321
+  20 │     2  10000.0     0.001    1.0e-9   0.01       55    true   8.18321
+  21 │     2  10000.0     0.001    1.0e-9   1.0        56    true   8.12483
+  22 │     2  10000.0     0.001    0.001    0.0001     55    true   7.89532
+  23 │     2  10000.0     0.001    0.001    0.01       55    true   7.89532
+  24 │     2  10000.0     0.001    0.001    1.0        56    true   7.8803
+  25 │     2      1.0e8   1.0e-5   1.0e-9   0.0001     56    true   9.39607
+  26 │     2      1.0e8   1.0e-5   1.0e-9   0.01       56    true   9.39607
+  27 │     2      1.0e8   1.0e-5   1.0e-9   1.0        56    true   9.39599
+  28 │     2      1.0e8   1.0e-5   0.001    0.0001     50    true   6.71909
+  29 │     2      1.0e8   1.0e-5   0.001    0.01       50    true   6.71909
+  30 │     2      1.0e8   1.0e-5   0.001    1.0        50    true   6.71908
+  31 │     2      1.0e8   0.001    1.0e-9   0.0001     55    true   8.18285
+  32 │     2      1.0e8   0.001    1.0e-9   0.01       55    true   8.18285
+  33 │     2      1.0e8   0.001    1.0e-9   1.0        55    true   8.18285
+  34 │     2      1.0e8   0.001    0.001    0.0001     55    true   7.89497
+  35 │     2      1.0e8   0.001    0.001    0.01       55    true   7.89497
+  36 │     2      1.0e8   0.001    0.001    1.0        54    true   7.89497
+  37 │     3      1.0     1.0e-5   1.0e-9   0.0001     72    true  12.2923
+  38 │     3      1.0     1.0e-5   1.0e-9   0.01       82    true  12.0797
+  39 │     3      1.0     1.0e-5   1.0e-9   1.0        77    true  11.291
+  40 │     3      1.0     1.0e-5   0.001    0.0001     64    true  10.8004
+  41 │     3      1.0     1.0e-5   0.001    0.01       70    true  10.7214
+  42 │     3      1.0     1.0e-5   0.001    1.0        77    true  11.2361
+  43 │     3      1.0     0.001    1.0e-9   0.0001     65    true   9.66198
+  44 │     3      1.0     0.001    1.0e-9   0.01       67    true   9.59942
+  45 │     3      1.0     0.001    1.0e-9   1.0        69    true   8.58147
+  46 │     3      1.0     0.001    0.001    0.0001     63    true   9.22061
+  47 │     3      1.0     0.001    0.001    0.01       67    true   9.20901
+  48 │     3      1.0     0.001    0.001    1.0        69    true   8.58088
+  49 │     3  10000.0     1.0e-5   1.0e-9   0.0001     66    true   9.9349
+  50 │     3  10000.0     1.0e-5   1.0e-9   0.01       66    true   9.93488
+  51 │     3  10000.0     1.0e-5   1.0e-9   1.0        68    true   9.74991
+  52 │     3  10000.0     1.0e-5   0.001    0.0001     61    true   8.72906
+  53 │     3  10000.0     1.0e-5   0.001    0.01       61    true   8.72906
+  54 │     3  10000.0     1.0e-5   0.001    1.0        61    true   8.64322
+  55 │     3  10000.0     0.001    1.0e-9   0.0001     63    true   7.80899
+  56 │     3  10000.0     0.001    1.0e-9   0.01       63    true   7.80898
+  57 │     3  10000.0     0.001    1.0e-9   1.0        63    true   7.71782
+  58 │     3  10000.0     0.001    0.001    0.0001     61    true   7.45227
+  59 │     3  10000.0     0.001    0.001    0.01       61    true   7.45226
+  60 │     3  10000.0     0.001    0.001    1.0        61    true   7.43438
+  61 │     3      1.0e8   1.0e-5   1.0e-9   0.0001     66    true   9.93443
+  62 │     3      1.0e8   1.0e-5   1.0e-9   0.01       66    true   9.93443
+  63 │     3      1.0e8   1.0e-5   1.0e-9   1.0        66    true   9.93441
+  64 │     3      1.0e8   1.0e-5   0.001    0.0001     61    true   8.72865
+  65 │     3      1.0e8   1.0e-5   0.001    0.01       61    true   8.72865
+  66 │     3      1.0e8   1.0e-5   0.001    1.0        61    true   8.72864
+  67 │     3      1.0e8   0.001    1.0e-9   0.0001     63    true   7.80862
+  68 │     3      1.0e8   0.001    1.0e-9   0.01       63    true   7.80862
+  69 │     3      1.0e8   0.001    1.0e-9   1.0        63    true   7.80861
+  70 │     3      1.0e8   0.001    0.001    0.0001     61    true   7.45191
+  71 │     3      1.0e8   0.001    0.001    0.01       61    true   7.45191
+  72 │     3      1.0e8   0.001    0.001    1.0        61    true   7.45191
+  73 │     4      1.0     1.0e-5   1.0e-9   0.0001     78    true  12.667
+  74 │     4      1.0     1.0e-5   1.0e-9   0.01       87    true  12.5455
+  75 │     4      1.0     1.0e-5   1.0e-9   1.0        83    true  11.1173
+  76 │     4      1.0     1.0e-5   0.001    0.0001     74    true  12.0603
+  77 │     4      1.0     1.0e-5   0.001    0.01       78    true  12.0038
+  78 │     4      1.0     1.0e-5   0.001    1.0        83    true  11.0654
+  79 │     4      1.0     0.001    1.0e-9   0.0001     70    true   9.86202
+  80 │     4      1.0     0.001    1.0e-9   0.01       71    true   9.77807
+  81 │     4      1.0     0.001    1.0e-9   1.0        70    true   8.89016
+  82 │     4      1.0     0.001    0.001    0.0001     70    true   9.36023
+  83 │     4      1.0     0.001    0.001    0.01       70    true   9.34672
+  84 │     4      1.0     0.001    0.001    1.0        70    true   8.88955
+  85 │     4  10000.0     1.0e-5   1.0e-9   0.0001     72    true  10.1425
+  86 │     4  10000.0     1.0e-5   1.0e-9   0.01       72    true  10.1425
+  87 │     4  10000.0     1.0e-5   1.0e-9   1.0        74    true  10.09
+  88 │     4  10000.0     1.0e-5   0.001    0.0001     70    true   9.65664
+  89 │     4  10000.0     1.0e-5   0.001    0.01       70    true   9.65664
+  90 │     4  10000.0     1.0e-5   0.001    1.0        70    true   9.6125
+  91 │     4  10000.0     0.001    1.0e-9   0.0001     66    true   7.89652
+  92 │     4  10000.0     0.001    1.0e-9   0.01       66    true   7.89651
+  93 │     4  10000.0     0.001    1.0e-9   1.0        66    true   7.76965
+  94 │     4  10000.0     0.001    0.001    0.0001     66    true   7.49473
+  95 │     4  10000.0     0.001    0.001    0.01       66    true   7.49473
+  96 │     4  10000.0     0.001    0.001    1.0        66    true   7.47403
+  97 │     4      1.0e8   1.0e-5   1.0e-9   0.0001     72    true  10.142
+  98 │     4      1.0e8   1.0e-5   1.0e-9   0.01       72    true  10.142
+  99 │     4      1.0e8   1.0e-5   1.0e-9   1.0        72    true  10.142
+ 100 │     4      1.0e8   1.0e-5   0.001    0.0001     70    true   9.65616
+ 101 │     4      1.0e8   1.0e-5   0.001    0.01       70    true   9.65616
+ 102 │     4      1.0e8   1.0e-5   0.001    1.0        70    true   9.65615
+ 103 │     4      1.0e8   0.001    1.0e-9   0.0001     68    true   7.89613
+ 104 │     4      1.0e8   0.001    1.0e-9   0.01       66    true   7.89613
+ 105 │     4      1.0e8   0.001    1.0e-9   1.0        66    true   7.89611
+ 106 │     4      1.0e8   0.001    0.001    0.0001     66    true   7.49436
+ 107 │     4      1.0e8   0.001    0.001    0.01       66    true   7.49436
+ 108 │     4      1.0e8   0.001    0.001    1.0        66    true   7.49435
+Main.BiotPrecTest
