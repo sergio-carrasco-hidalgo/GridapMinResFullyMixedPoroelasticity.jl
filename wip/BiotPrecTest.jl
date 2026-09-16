@@ -188,7 +188,7 @@ function assemble_biot_precond(model, p_ex, u_ex, params; nk=2, degree=4)
 
     op = AffineFEOperator(lhs, rhs, Xh, Yh)
 
-    @info "affine operator assembled"
+    #@info "affine operator assembled"
 
     Σ_test  = MultiFieldFESpace([Σ1_, Σ2_])
     Σ_trial = MultiFieldFESpace([Σ1,  Σ2 ])
@@ -210,7 +210,7 @@ function assemble_biot_precond(model, p_ex, u_ex, params; nk=2, degree=4)
     Pinv = zeros(N, N)
     Adense = Array(op.op.matrix)
 
-    @info "dense A computed"
+    #@info "dense A computed"
 
     """
     Preconditioner forms:
@@ -249,7 +249,7 @@ function assemble_biot_precond(model, p_ex, u_ex, params; nk=2, degree=4)
     A_γ  = assemble_matrix(a_21b,  G, G_)
     A_z  = assemble_matrix(a_33,  Z, Z_)
 
-    @info "Assembly done"
+    #@info "Assembly done"
 
     B_σ = LinearOperator(GridapLinearSolverPreconditioner(A_σ))
     B_p = LinearOperator(GridapLinearSolverPreconditioner(A_pa)) +
@@ -258,11 +258,11 @@ function assemble_biot_precond(model, p_ex, u_ex, params; nk=2, degree=4)
     B_γ = LinearOperator(GridapLinearSolverPreconditioner(A_γ))
     B_z = LinearOperator(GridapLinearSolverPreconditioner(A_z))
 
-    @info "Block operators assembled"
+    #@info "Block operators assembled"
 
     riesz = BlockDiagonalOperator(B_σ, B_p, B_u, B_γ, B_z)
 
-    @info "Riesz operator assembled"
+    #@info "Riesz operator assembled"
 
     Pinv[range_σ, range_σ] = inv(Array(A_σ))
     Pinv[range_p, range_p] = inv(Array(A_pa)) + inv(Array(A_pb))
@@ -284,25 +284,26 @@ end
         κ::Float64  = 1.0e-5
     end
 
-    table = DataFrame(nk=Int[], λ=Float64[], κ=Float64[], s0=Float64[], α=Float64[],
+    table = DataFrame(nk=Int[], λ=Float64[], μ=Float64[], κ=Float64[], s0=Float64[], α=Float64[],
                      niter=Int[], solved=Bool[], cond=Float64[])
 
-    for nk in (2, 3, 4)
+    for nk in (4)
         model = generate_model2d(nk)
         setup_model_labels_unit_square!(model)
 
-        for λ in (1.0, 1e4, 1e8), κ in (1e-5, 1e-3), s0 in (1e-9, 1e-3), α in (1e-4, 1e-2, 1.0)
-            params = BiotParams(λ=λ, κ=κ, s0=s0, α=α)
-            println("\n--- nk=$nk λ=$λ κ=$κ s0=$s0 α=$α---")
+        for λ in (1.0e-2, 1.0, 1e4, 1e8), κ in (1e-8, 1e-5, 1e-3), s0 in (1e-9, 1e-3), α in (1e-4, 1e-2, 1.0), μ in (1.0e-2, 1.0, 1.0e2)
+            params = BiotParams(λ=λ, κ=κ, s0=s0, α=α, μ=μ )
+            println("\n--- nk=$nk λ=$λ μ=$μ κ=$κ s0=$s0 α=$α---")
 
             op, riesz, evals = assemble_biot_precond(model, p_ex, u_ex, params; nk=nk)
 
             x, hist = minres(op.op.matrix, op.op.vector; M=riesz, itmax=2000, atol=1e-10, rtol=1e-10)
 
             cnd = maximum(abs, evals) / minimum(abs, evals)
-            @printf("iters=%d  solved=%s  cond=%1.3e\n", hist.niter, hist.solved, cnd)
+            @printf("MINRES converged in %d iterations\n", hist.niter)
+            @printf("condition number of the preconditioned system: %1.3e\n", cnd)
 
-            push!(table, (nk, λ, κ, s0, α, hist.niter, hist.solved, cnd))
+            push!(table, (nk, λ, μ, κ, s0, α, hist.niter, hist.solved, cnd))
         end # sweep params
     end #for nk
 
